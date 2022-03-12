@@ -1,0 +1,128 @@
+@media (min-width: 651px) {
+  .textoEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin: 50px 50px;
+    color: #00d154;
+  }
+  .textoEsquerda h3 {
+    font-family: "daysone" !important;
+    letter-spacing: 1px;
+  }
+  .textoEsquerda p {
+    max-width: 550px;
+    font-family: Montserrat, sans-serif;
+  }
+  .textoDireita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 50px;
+    color: #36a9e1;
+  }
+  .textoDireita h3 {
+    font-family: "daysone";
+  }
+  .textoDireita p {
+    max-width: 550px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .cardsSobreContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .divisor{
+    margin-bottom:-30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .textoEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin: 50px 50px;
+    color: #00d154;
+  }
+  .textoEsquerda h3 {
+    font-family: "daysone" !important;
+    letter-spacing: 1px;
+  }
+  .textoEsquerda p {
+    max-width: 550px;
+    font-family: Montserrat, sans-serif;
+  }
+  .textoDireita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 50px;
+    color: #36a9e1;
+  }
+  .textoDireita h3 {
+    font-family: "daysone";
+  }
+  .textoDireita p {
+    max-width: 550px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .cardsSobreContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .divisor{
+    margin-bottom:-30px;
+  }
+}
+
+@media (min-width: 901px) {
+  .textoEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 100px 50px;
+    color: #00d154;
+  }
+  .textoEsquerda h3 {
+    font-family: "daysone" !important;
+    letter-spacing: 1px;
+  }
+  .textoEsquerda p {
+    max-width: 550px;
+    font-family: Montserrat, sans-serif;
+  }
+  .textoDireita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin: 100px 50px;
+    color: #36a9e1;
+  }
+  .textoDireita h3 {
+    font-family: "daysone";
+  }
+  .textoDireita p {
+    max-width: 550px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .cardsSobreContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
