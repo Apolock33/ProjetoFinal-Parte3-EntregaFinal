@@ -4,6 +4,9 @@ import imgCard from '../../Assets/Img/BasqueteAdaptado.jpg'
 import './Locais.css'
 
 export default function Locais() {
+
+
+  
   return (
     <section>
       <div className='divisor'>
@@ -12,14 +15,22 @@ export default function Locais() {
       </div>
       <div className='cards'>
         <div className='cardContainer'>
-          <Card img={imgCard} /><br/>
-          <Card img={imgCard} /><br/>
-          <Card img={imgCard} />
+          <Card
+            imagem={imgCard} 
+            nome='Add'
+            cidade='sp'
+            estado='sp'
+          /><br/>
+          
         </div>
         <div className='cardContainer'>
-          <Card img={imgCard} /><br/>
-          <Card img={imgCard} /><br/>
-          <Card img={imgCard} />
+          <Card
+            imagem={imgCard}
+            nome=''
+            cidade=''
+            estado=''
+            /><br />
+          
         </div>
 
       </div>
