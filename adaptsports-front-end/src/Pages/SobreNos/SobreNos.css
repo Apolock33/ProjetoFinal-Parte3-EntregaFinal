@@ -1,128 +1,94 @@
-@media (min-width: 651px) {
-  .textoEsquerda {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 50px 50px;
-    color: #00d154;
-  }
-  .textoEsquerda h3 {
-    font-family: "daysone" !important;
-    letter-spacing: 1px;
-  }
-  .textoEsquerda p {
-    max-width: 550px;
-    font-family: Montserrat, sans-serif;
-  }
-  .textoDireita {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 50px 50px;
-    color: #36a9e1;
-  }
-  .textoDireita h3 {
-    font-family: "daysone";
-  }
-  .textoDireita p {
-    max-width: 550px;
-    font-family: Montserrat, sans-serif;
-  }
-
-  .cardsSobreContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .divisor {
-    margin-bottom: -20px;
-  }
-}
-
 @media (max-width: 900px) {
   .textoEsquerda {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
-    margin: 50px 50px;
     color: #00d154;
   }
-  .textoEsquerda h3 {
-    font-family: "daysone" !important;
-    letter-spacing: 1px;
-  }
-  .textoEsquerda p {
-    max-width: 550px;
-    font-family: Montserrat, sans-serif;
-  }
-  .textoDireita {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 50px 50px;
-    color: #36a9e1;
-  }
-  .textoDireita h3 {
+  .posicionadorSobree h3 {
     font-family: "daysone";
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
   }
-  .textoDireita p {
-    max-width: 550px;
+  .posicionadorSobree p {
     font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    max-width: 700px;
+    text-align: center;
+    margin: 30px;
   }
 
-  .cardsSobreContainer {
+  .textoDireita {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
+    color: #36a9e1;
   }
-  .divisor {
-    margin-bottom: -20px;
+
+  .posicionadorSobred h3 {
+    font-family: "daysone";
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+  }
+  .posicionadorSobred p {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    max-width: 700px;
+    text-align: center;
+    margin: 30px;
+  }
+  .imgSobre img {
+    max-width: 0;
+    max-height: 0;
   }
 }
 
 @media (min-width: 901px) {
   .textoEsquerda {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    margin: 100px 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     color: #00d154;
   }
-  .textoEsquerda h3 {
-    font-family: "daysone" !important;
-    letter-spacing: 1px;
-  }
-  .textoEsquerda p {
-    max-width: 550px;
-    font-family: Montserrat, sans-serif;
-  }
-  .textoDireita {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    margin: 100px 50px;
-    color: #36a9e1;
-  }
-  .textoDireita h3 {
+  .posicionadorSobree h3 {
     font-family: "daysone";
+    font-size: 25px;
   }
-  .textoDireita p {
-    max-width: 550px;
+  .posicionadorSobree p {
     font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    max-width: 700px;
   }
 
+  .textoDireita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #36a9e1;
+  }
+
+  .posicionadorSobred h3 {
+    font-family: "daysone";
+    font-size: 25px;
+  }
+  .posicionadorSobred p {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    max-width: 700px;
+  }
+  .imgSobre img {
+    max-width: 400px;
+    min-width: 400px;
+  }
   .cardsSobreContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin-bottom: 30px;
+    margin-bottom:50px;
   }
 }
