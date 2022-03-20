@@ -70,7 +70,7 @@
   position: absolute;
 }
 
-.card .info {
+.card .infoLocais {
   max-width: 230px;
   margin: 160px 0px 0px 0px;
   position: relative;
@@ -81,13 +81,13 @@
   transition: 0.5s all;
 }
 
-.info {
+.infoLocais {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.info button {
+.infoLocais a {
   border: none;
   padding: 20px;
   border-radius: 5px;
@@ -95,21 +95,23 @@
   color: #36a9e1;
   font-family: "daysone";
   font-size: 15px;
+  text-decoration: none;
+  background-color: #fff;
 }
 
-.card .info button:hover {
+.card .infoLocais a:hover {
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
 
-.card:hover .info {
+.card:hover .infoLocais {
   opacity: 1;
   transform: translateY(0px);
 }
-.card .info h3 {
+.card .infoLocais h3 {
   font-family: "daysone";
-  margin:-50px 0 -10px 0;
+  margin: -120px 0 10px 0;
 }
-.card .info p {
+.card .infoLocais p {
   font-family: Montserrat, sans-serif;
   letter-spacing: 1px;
   font-size: 15px;
