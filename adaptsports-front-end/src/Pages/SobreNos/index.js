@@ -60,14 +60,44 @@ export default function SobreNos() {
         <h3>#Squad12</h3><br /><br />
       </div>
       <div className="cardsSobreContainer">
-        <Cards img={Carlos} titulo="Carlos Alberto Martins" /><br /><br />
-        <Cards img={Tati} titulo="Tatiana Maroto" /><br /><br />
-        <Cards img={Erica} titulo="Erica Graciano" /><br /><br />
+        <Cards
+          img={Carlos}
+          titulo="Carlos Alberto Martins"
+          linkedin='https://www.linkedin.com/in/carlos-alberto-m-m-gomes-868204124/'
+          github='https://github.com/Apolock33'
+        /><br /><br />
+        <Cards
+          img={Tati}
+          titulo="Tatiana Maroto"
+          linkedin='https://www.linkedin.com/in/tatiana-santos-129085222/'
+          github='https://github.com/Tatiana3090'
+        /><br /><br />
+        <Cards
+          img={Erica}
+          titulo="Erica Graciano"
+          linkedin='https://www.linkedin.com/in/erica-graciano-moreira-14216111a/'
+          github='https://github.com/EricaG12'
+        /><br /><br />
       </div>
       <div className="cardsSobreContainer">
-        <Cards img={Patrick} titulo="Patrick Baldez" /><br /><br />
-        <Cards img={Victor} titulo="Victor Persike" /><br /><br />
-        <Cards img={Emanuel} titulo="Emanuel Cleiton" /><br /><br />
+        <Cards
+          img={Patrick}
+          titulo="Patrick Baldez"
+          linkedin='https://www.linkedin.com/in/patrick-baldez-298064213/'
+          github='https://github.com/BaldezPatrick'
+        /><br /><br />
+        <Cards
+          img={Victor}
+          titulo="Victor Persike"
+          linkedin='https://www.linkedin.com/in/victor-persike-78515b71/'
+          github='https://github.com/vcpersike'
+        /><br /><br />
+        <Cards
+          img={Emanuel}
+          titulo="Emanuel Cleiton" 
+          linkedin='https://www.linkedin.com/in/emanuel-cleiton-3273971ab/'
+          github='https://github.com/Emanuel-Cleiton'
+          /><br /><br />
       </div>
     </div>
   );
