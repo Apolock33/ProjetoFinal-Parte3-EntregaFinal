@@ -7,13 +7,14 @@ export default function Contatos() {
   const email = useRef()
   const descricao = useRef()
 
-  function Contato(){
+  function Contato() {
     api.post('/contat', {
       nome: nome.current.value,
       email: email.current.value,
       descricao: descricao.current.value
     }).then(() => window.location.reload())
-      .catch(err => console.log(err));
+      .catch(err => console.log(err))
+      .then(alert("Obrigado Por Nos Contatar! Seu Problema será verificado em breve!"))
   }
 
   return (
@@ -25,17 +26,17 @@ export default function Contatos() {
             <div className="formulario">
               <div className="label-input">
                 <label>Nome</label>
-                <input type="text" className="nomeInput" ref={nome}/>
+                <input required type="text" className="nomeInput" ref={nome} />
               </div>
               <div className="label-input">
                 <label>Email</label>
-                <input type="email" className="emailInput" ref={email}/>
+                <input required type="email" className="emailInput" ref={email} />
               </div>
               <div className="label-input">
                 <label>Descrição</label>
                 <textarea type="text" className="descricaoInput" ref={descricao} />
               </div>
-              <button type="submit" className="botaoEnviar">Enviar</button>
+              <button required type="submit" className="botaoEnviar">Enviar</button>
             </div>
           </div>
         </form>
