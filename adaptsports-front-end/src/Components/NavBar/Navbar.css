@@ -6,7 +6,7 @@
 .navBarApp {
   display: flex;
   justify-content: space-around;
-  padding: 25px 0;
+  padding: 20px 0;
   background-color: #fff;
 }
 

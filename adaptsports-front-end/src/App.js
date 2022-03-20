@@ -3,6 +3,7 @@ import Routes from './routes';
 import { BrowserRouter } from 'react-router-dom';
 import Footer from "./Components/Footer/Index";
 
+
 function App() {
   return (
     <div className="App">
