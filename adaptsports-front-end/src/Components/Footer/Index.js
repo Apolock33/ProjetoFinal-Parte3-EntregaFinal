@@ -23,7 +23,7 @@ export default function Footer() {
         <h5 className='titulofooter'>ADAPT SPORTS - Desenvolvido por Squad 12.</h5>
       </div>
       <div className='fale-con'>
-        <h3 className='titulofooter'>Fale Conosco</h3>
+        <h3 className='titulofooter'>Fale Conosco</h3><br/>
         <h6>E-mail para contato:<br/>
           Squad12@gmail.com<br /><br />
           Críticas, denúncias e reclamações:<br/>

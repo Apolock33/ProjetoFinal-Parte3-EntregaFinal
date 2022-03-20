@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
       <div className='divisor divisoriaFooter'>
-        <h3>Notícias</h3><br /><br />
+        <h3>Notícias</h3><br /><br /><br />
       </div>
       <div className='CardsHomeContainer'>
         <Cards

@@ -8,7 +8,7 @@ export default function Card(props) {
                 <div className='card centralizacao'>
                     <img src={props.img} alt='CardImg' />
                     <div className='info'>
-                        <h5>{props.titulo}</h5>
+                        <h5>{props.titulo}</h5><br/>
                         <a href={props.link}>Saiba Mais</a>
                     </div>
                 </div>
