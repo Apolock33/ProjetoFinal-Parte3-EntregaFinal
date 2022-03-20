@@ -16,7 +16,7 @@ export default function NavBar() {
           <li><Link className='a' to='/locais'>Locais</Link></li>
           <li><Link className='a' to='/esportes'>Esportes</Link></li>
           <li><Link className='a' to='/contatos'>Fale Conosco</Link></li>
-          <li><Link className='Login' to='/'>LogIn</Link></li>
+          <li><Link className='Login' to='/login'>LogIn</Link></li>
         </ul>
       </div>
     </header>

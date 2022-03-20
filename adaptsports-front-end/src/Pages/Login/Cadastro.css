@@ -1,0 +1,76 @@
+.CadastroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.CadastroFormBody {
+  background: linear-gradient(to top, #36a9e1, #00d154);
+  height: 630px;
+  width: 500px;
+  border-radius: 10px;
+}
+.CadastroFormBody h1 {
+  color: #fff;
+  font-family: "daysone";
+  text-align: center;
+  margin: 30px;
+}
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs label {
+  color: #fff;
+  font-family: "daysone";
+  font-size: 25px;
+  margin: 20px 0 5px 0;
+}
+.inputs input {
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 30px;
+  font-family: Montserrat,sans-serif;
+  font-weight:bold;
+}
+
+.Formulario button {
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  font-size: 20px;
+  font-family: "daysone";
+  border-radius: 5px;
+}
+
+.Formulario button:hover {
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Formulario h6{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Formulario a{
+    font-family: 'daysone';
+    text-decoration: none;
+    color:#fff;
+}
+.Formulario a:hover{
+    color:black;
+}
