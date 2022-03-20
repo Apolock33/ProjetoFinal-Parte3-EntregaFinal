@@ -6,10 +6,11 @@ export default function Card(props) {
         <div className='body'>
             <div className='wrapper'>
                 <div className='card centralizacao'>
-                    <img src={props.img} alt='CardImg' />
+                    <img src={props.imagem} alt='CardImg' />
                     <div className='info'>
-                        <h1>{props.titulo}</h1>
-                        <button to={props.modal}>Saiba Mais</button>
+                        <h3>{props.nome}</h3>
+                        <h5>{props.cidade} - {props.estado}</h5>
+                        <button>Saiba Mais</button>
                     </div>
                 </div>
             </div>
