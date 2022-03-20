@@ -3,6 +3,9 @@ import Card from '../../Components/CardLocais/Card'
 import './Locais.css'
 import api from '../../Services/api';
 import { Link } from 'react-router-dom';
+import Modal from '../../Components/Modal/Modal'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function Locais() {
@@ -40,6 +43,8 @@ export default function Locais() {
           ))}
           <div className='centralizacao'>
             <Link to='/adicionarLocal' className='botaoAdicionar'>Adicionar Local</Link>
+
+            <Modal/>
           </div>
         </div>
       </div>
