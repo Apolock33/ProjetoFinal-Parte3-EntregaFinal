@@ -1,0 +1,19 @@
+.LoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.LoginFormBody {
+  background: linear-gradient(to top, #36a9e1, #00d154);
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+}
+.LoginFormBody h1 {
+  color: #fff;
+  font-family: "daysone";
+  text-align: center;
+  margin: 30px;
+}
