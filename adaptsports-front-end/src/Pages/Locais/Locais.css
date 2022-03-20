@@ -102,4 +102,24 @@
     flex-direction: row;
     margin-bottom: 50px;
   }
+  .botaoAdicionar{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background:#36a9e1;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "daysone";
+  }
+.botaoAdicionar:hover{
+  color:#fff;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+  .centralizacao{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
 }

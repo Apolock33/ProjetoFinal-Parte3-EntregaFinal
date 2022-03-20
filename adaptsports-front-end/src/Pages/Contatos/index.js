@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import './Contatos.css'
 import api from '../../Services/api'
+import { Link } from 'react-router-dom';
 
 export default function Contatos() {
   const nome = useRef()
@@ -36,7 +37,10 @@ export default function Contatos() {
                 <label>Descrição</label>
                 <textarea type="text" className="descricaoInput" ref={descricao} />
               </div>
-              <button required type="submit" className="botaoEnviar">Enviar</button>
+              <div className="butonsContainer">
+                <Link to='/' className="botaoEnviar">voltar</Link>
+                <button required type="submit" className="botaoEnviar">Enviar</button>
+              </div>
             </div>
           </div>
         </form>

@@ -69,7 +69,7 @@ a {
 
 .card .info {
   max-width: 230px;
-  margin: 160px 0px 0px 0px;
+  margin: 160px 0px 100px 0px;
   position: relative;
   z-index: 3;
   color: #fff;
@@ -91,7 +91,8 @@ a {
   opacity: 1;
   transform: translateY(0px);
 }
-.card .info h1 {
+.card .info h5 {
+  margin:-50px 0 0 0 !important;
   font-family: "daysone";
   margin: 0;
 }
