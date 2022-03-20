@@ -1,3 +1,46 @@
+@media (min-width: 651px) {
+  .Texto1Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+  }
+  .Texto1Home h3 {
+    font-family: "daysone";
+    color: #36a9e1;
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  .Texto1Home p {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    max-width: 450px;
+    color: #36a9e1;
+  }
+
+  .Texto2Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00d154;
+    margin: 0 30px;
+  }
+  .Texto2Home h3 {
+    font-family: "daysone";
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  .Texto2Home p {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    max-width: 450px;
+  }
+  .CardsHomeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 900px) {
   .Texto1Home {
     display: flex;
@@ -62,6 +105,7 @@
     margin-bottom: 0;
     font-size: 30px;
   }
+  
   .Texto1Home p {
     font-family: Montserrat, sans-serif;
     text-align: end;

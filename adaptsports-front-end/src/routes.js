@@ -5,6 +5,7 @@ import Locais from './Pages/Locais/index';
 import SobreNos from './Pages/SobreNos/index';
 import Esportes from './Pages/Esportes/index';
 import NavBar from './Components/NavBar/NavBar';
+import Contatos from './Pages/Contatos';
 
 export default function Routes() {
     return (
@@ -16,6 +17,7 @@ export default function Routes() {
                     <Route path='/sobrenos' component={SobreNos} />
                     <Route path='/locais' component={Locais} />
                     <Route path='/esportes' component={Esportes} />
+                    <Route path='/contatos' component={Contatos} />
                 </Switch>
             </BrowserRouter>
         </div>
