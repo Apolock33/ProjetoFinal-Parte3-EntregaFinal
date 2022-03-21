@@ -51,6 +51,7 @@
   .Formulario button {
     border: none;
     padding: 10px;
+    color: #36a9e1 !important;
     background-color: #fff;
     font-size: 20px;
     font-family: "daysone";
@@ -63,6 +64,7 @@
 
   .Formulario h6 {
     font-family: Montserrat, sans-serif;
+    font-size: 15px;
     font-weight: bold;
     color: #fff;
   }
@@ -130,6 +132,7 @@
   .Formulario button {
     border: none;
     padding: 10px;
+    color:#36a9e1;
     background-color: #fff;
     font-size: 20px;
     font-family: "daysone";
