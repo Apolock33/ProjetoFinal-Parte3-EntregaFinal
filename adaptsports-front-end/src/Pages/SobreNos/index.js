@@ -17,7 +17,7 @@ export default function SobreNos() {
   return (
     <div>
       <div className="divisor">
-        <h3>Sobre Nós</h3><br/>
+        <br /><br /><h3>Sobre Nós</h3><br/>
         <p>Uma breve descrição sobre nosso projeto, nossas intenções e nossa equipe.</p>
       </div>
 
@@ -89,7 +89,7 @@ export default function SobreNos() {
       </section>
 
       <div className="divisor">
-        <h3>#Squad12</h3><br /><br />
+        <br/><br/><h3>#Squad12</h3><br /><br />
       </div>
       <div className="cardsSobreContainer">
         <Cards
