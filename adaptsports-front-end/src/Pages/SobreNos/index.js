@@ -17,7 +17,7 @@ export default function SobreNos() {
   return (
     <div>
       <div className="divisor">
-        <h3>Sobre Nós</h3>
+        <h3>Sobre Nós</h3><br/>
         <p>Uma breve descrição sobre nosso projeto, nossas intenções e nossa equipe.</p>
       </div>
 
