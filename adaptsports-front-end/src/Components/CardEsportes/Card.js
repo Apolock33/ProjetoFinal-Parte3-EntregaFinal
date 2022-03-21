@@ -9,7 +9,7 @@ export default function Card(props) {
                     <img src={props.img} alt='CardImg' />
                     <div className='info'>
                         <h1>{props.titulo}</h1>
-                        <button to={props.modal}>Saiba Mais</button>
+                        <button className='botaoEsportesCards' to={props.modal}>Saiba Mais</button>
                     </div>
                 </div>
             </div>
