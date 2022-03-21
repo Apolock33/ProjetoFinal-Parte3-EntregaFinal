@@ -20,6 +20,7 @@ export default function Contatos() {
 
   return (
     <div>
+      <br />
       <div className="contatosContainer">
         <form onSubmit={Contato}>
           <div className="formularioContainer">

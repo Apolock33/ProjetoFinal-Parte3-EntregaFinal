@@ -12,6 +12,7 @@ export default function Card(props) {
                         <h3>{props.nome}</h3>
                         <h5>{props.cidade} - {props.estado}</h5>
                         <Link to='/atualizarLocal' className='botãoAtualizar'>Atualizar Local</Link>
+                        
                     </div>
                 </div>
             </div>
