@@ -3,9 +3,7 @@ import Card from '../../Components/CardLocais/Card'
 import './Locais.css'
 import api from '../../Services/api';
 import { Link } from 'react-router-dom';
-import Modal from '../../Components/Modal/Modal'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function Locais() {
@@ -19,11 +17,10 @@ export default function Locais() {
   }, []);
   console.log(locais)
 
-
   return (
     <section>
       <div className='divisor'>
-        <h3>Locais</h3><br />
+        <br /><br /><h3>Locais</h3><br />
         <p>Aqui você pode checar todos os locais para pratica adaptada de atividade física, basta clicar nos cards para ver suas informações mais detalhadas. Você também pode adicionar locais que não estejam apresentados em nosso site ou atualizar as informações dos que já estão. Ah! E não esqueça de avaliar!</p>
         <br />
       </div>
@@ -33,7 +30,7 @@ export default function Locais() {
             <div className='cardContainer' key={local.id}>
               <br />
               <Card
-                key={local.id}
+                id={local.id}
                 imagem={local.imagem}
                 nome={local.nome}
                 cidade={local.cidade}
@@ -43,8 +40,6 @@ export default function Locais() {
           ))}
           <div className='centralizacao'>
             <Link to='/adicionarLocal' className='botaoAdicionar'>Adicionar Local</Link>
-
-            <Modal/>
           </div>
         </div>
       </div>

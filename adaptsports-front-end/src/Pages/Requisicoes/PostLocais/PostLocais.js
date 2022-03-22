@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import api from '../../../Services/api';
 import './PostLocais.css'
 
+
 export default function PostLocais() {
 
   const nome = useRef()
@@ -11,7 +12,7 @@ export default function PostLocais() {
 
   function create(event) {
     event.preventDefault()
-    api.post('/locais', {
+    api.post('/login', {
       nome: nome.current.value,
       cidade: cidade.current.value,
       estado: estado.current.value,

@@ -8,16 +8,16 @@ export default function PutLocais() {
     const nome = useRef()
     const cidade = useRef()
     const estado = useRef()
-    const imagem = useRef()
+    const img = useRef()
 
     function update(event) {
         event.preventDefault()
         api.put('/locais/{id}', {
             id: id.current.value,
             nome: nome.current.value,
-            imagem: imagem.current.value,
             cidade: cidade.current.value,
-            estado: estado.current.value
+            estado: estado.current.value,
+            imagem: img.current.value
         }).then(() => {
             window.location.reload()
         }).catch(err => {
@@ -34,7 +34,7 @@ export default function PutLocais() {
              <form className="formulario" onSubmit={update}>
                  <div className="formulario">
                      <label className='idLabel'>Id</label>
-                     <input className='idInput' required type='number' ref={id}/>
+                     <input className='idInput' type='number' ref={id}/>
                  </div>
                  <div className="formulario">
                      <label className='idLabel'>nome</label>
@@ -50,7 +50,7 @@ export default function PutLocais() {
                  </div>
                  <div className="formulario">
                      <label className='idLabel'>imagem</label>
-                     <input className='idInput' required type='text' ref={imagem} />
+                     <input className='idInput' required type='text' ref={img} />
                  </div>
                  <div className="formulario">
                      <button type='submit' >Enviar</button>

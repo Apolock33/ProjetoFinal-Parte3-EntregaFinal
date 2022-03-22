@@ -6,6 +6,8 @@ import SobreNos from './Pages/SobreNos/index';
 import Esportes from './Pages/Esportes/index';
 import NavBar from './Components/NavBar/NavBar';
 import Contatos from './Pages/Contatos';
+import Login from './Pages/Login/Login'
+import Cadastro from './Pages/Login/Cadastro'
 import PutLocais from './Pages/Requisicoes/PutLocais/PutLocais';
 import PostLocais from './Pages/Requisicoes/PostLocais/PostLocais'
 
@@ -20,6 +22,8 @@ export default function Routes() {
                     <Route path='/locais' component={Locais} />
                     <Route path='/esportes' component={Esportes} />
                     <Route path='/contatos' component={Contatos} />
+                    <Route path='/login' component={Login} />
+                    <Route path='/cadastro' component={Cadastro} />
                     <Route path='/atualizarLocal' component={PutLocais} />
                     <Route path='/adicionarLocal' component={PostLocais} />
                 </Switch>
