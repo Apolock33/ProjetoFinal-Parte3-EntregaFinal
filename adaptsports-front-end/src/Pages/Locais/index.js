@@ -3,7 +3,7 @@ import Card from '../../Components/CardLocais/Card'
 import './Locais.css'
 import api from '../../Services/api';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export default function Locais() {
@@ -16,7 +16,6 @@ export default function Locais() {
     })
   }, []);
   console.log(locais)
-
 
   return (
     <section>
@@ -31,7 +30,7 @@ export default function Locais() {
             <div className='cardContainer' key={local.id}>
               <br />
               <Card
-                key={local.id}
+                id={local.id}
                 imagem={local.imagem}
                 nome={local.nome}
                 cidade={local.cidade}
