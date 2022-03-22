@@ -12,7 +12,7 @@ export default function PostLocais() {
 
   function create(event) {
     event.preventDefault()
-    api.post('/locais', {
+    api.post('/login', {
       nome: nome.current.value,
       cidade: cidade.current.value,
       estado: estado.current.value,
