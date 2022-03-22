@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://sheltered-reef-50631.herokuapp.com/'
+    baseURL: 'https://adaptsports.herokuapp.com/'
 })
 export default api;
