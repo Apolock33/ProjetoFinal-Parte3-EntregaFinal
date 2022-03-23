@@ -38,7 +38,7 @@ export default function Locais() {
               /><br />
             </div>
           ))}
-          <div className='centralizacao'>
+          <div className='centralizacao' align='center'>
             <Link to='/adicionarLocal' className='botaoAdicionar'>Adicionar Local</Link>
           </div>
         </div>

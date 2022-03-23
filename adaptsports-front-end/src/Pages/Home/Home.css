@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 30px;
+    margin: 100px 30px;
   }
   .Texto1Home h3 {
     font-family: "daysone";

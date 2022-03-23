@@ -20,9 +20,9 @@ export default function Card(props) {
                 <div className='card centralizacao'>
                     <img src={props.imagem} alt='CardImg' />
                     <div className='infoLocais'>
-                        <h5>NNumero do Local: {props.id}</h5>
                         <h3>{props.nome}</h3>
                         <h5>{props.cidade} - {props.estado}</h5>
+                        <h5>{props.id}</h5>
                         <Link to='/atualizarLocal' className='botãoAtualizar'>Atualizar</Link>
                         <button onClick={() => deleteById(props.id)}>Deletar</button>
                     </div>

@@ -8,7 +8,7 @@
   .adicionarLocalContainer {
     background: linear-gradient(to top, #36a9e1, #00d154);
     height: 700px;
-    width: 500px;
+    width: 400px;
     border-radius: 10px;
     margin: 50px 0;
   }
@@ -17,6 +17,7 @@
     text-align: center;
     color: #fff;
     font-family: "daysone";
+    font-size: 25px;
     margin: 30px;
   }
   .formulario {
@@ -35,7 +36,7 @@
   .formulario label {
     color: #fff;
     font-family: "daysone";
-    font-size: 30px;
+    font-size: 20px;
     margin: 1px;
   }
 

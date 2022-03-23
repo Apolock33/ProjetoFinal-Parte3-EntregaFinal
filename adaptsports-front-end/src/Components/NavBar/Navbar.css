@@ -13,16 +13,18 @@ body {
 li {
   list-style: none;
 }
-a {
+
+.nav__link {
   text-decoration: none;
   color: #36a9e1;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 17px;
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
-a:hover {
+
+.nav__link:hover {
   color: #fff;
-  background:linear-gradient(to right, #36a9e1, #00d154);
+  background: linear-gradient(to right, #36a9e1, #00d154);
   border-radius: 5px;
 }
 
@@ -31,8 +33,10 @@ a:hover {
   align-items: center;
   justify-content: space-around;
   height: 8vh;
-  background: white;    
+  background: white;
+  margin-top: 20px;
 }
+
 .nav__brand {
   text-transform: uppercase;
 }
@@ -43,9 +47,11 @@ a:hover {
   justify-content: space-around;
   gap: 3rem;
 }
+
 .nav__toggler {
   display: none;
 }
+
 .nav__toggler div {
   width: 2.5rem;
   height: 0.2rem;
@@ -71,12 +77,10 @@ a:hover {
     transition: 0.5s ease-in;
   }
 }
-/* Active Class */
+
 .nav__active {
   transform: translateX(0%);
 }
-
-/* Toggle Icon Animation */
 
 .toggle .line1 {
   transform: rotate(-45deg) translate(-4px, 5px);

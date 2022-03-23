@@ -19,11 +19,9 @@ export default function Navbar() {
   };
   return (
     <nav className="nav">
-      <Link to="/" className="nav__brand">
         <Logo
           logo={logoImg}
         />
-      </Link>
       <ul className={active}>
         <li className="nav__item">
           <Link to="/" className="nav__link">
