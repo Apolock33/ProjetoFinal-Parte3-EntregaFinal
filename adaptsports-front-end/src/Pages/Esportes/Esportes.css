@@ -1,63 +1,14 @@
-@media (min-width: 651px) {
-  .divisor h1 {
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    padding: 10px;
-    border-radius: 5px;
-    width: 800px;
-    text-align: center;
-    font-family: "daysone";
-    color: #fff;
-    margin-bottom: 0;
-  }
-  .ContainerCardsEsp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 900px) {
-  .divisor h1 {
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    padding: 10px;
-    border-radius: 5px;
-    width: 800px;
-    text-align: center;
-    font-family: "daysone";
-    color: #fff;
-    margin-bottom: 0;
-  }
-  .ContainerCardsEsp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width: 901px) {
-  .divisor h1 {
-    background: linear-gradient(to right, #36a9e1, #00d154);
-    padding: 10px;
-    border-radius: 5px;
-    width: 800px;
-    text-align: center;
-    font-family: "daysone";
-    color: #fff;
-    margin-bottom: 0;
-  }
-  .ContainerCardsEsp {
+@media (min-width:901px){
+  .ContainerCardsEsp{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
+    justify-content: center;
   }
-  .modais{
+  .cardsEsportesContainerModal{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    margin:50px 0;
+    justify-content: center;
   }
 }

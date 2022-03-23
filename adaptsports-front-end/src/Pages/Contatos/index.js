@@ -9,7 +9,7 @@ export default function Contatos() {
   const descricao = useRef()
 
   function Contato() {
-    api.post('/contat', {
+    api.post('/contatos', {
       nome: nome.current.value,
       email: email.current.value,
       descricao: descricao.current.value

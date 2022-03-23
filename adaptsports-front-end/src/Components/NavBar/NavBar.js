@@ -49,8 +49,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="nav__item">
-          <Link to="/login" className="nav__link">
-            Login
+          <Link to="/cadastro" className="nav__link">
+            Cadastre-se
           </Link>
         </li>
       </ul>
